@@ -8,31 +8,33 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sign the Guest Book</title>
+    <title>Guest Book</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"> 
+    <!-- Bootstrap theme -->
+    <link href="C:\Users\robert\Desktop\django\newbook\home\static\home\bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="C:\Users\robert\Desktop\django\newbook\home\static\home\sign.css" rel="stylesheet">
+    <link href="C:\Users\robert\Desktop\django\newbook\home\static\home\theme.css" rel="stylesheet">
+
   </head>
 
   <body>
 
-    <div class="container">
+    <div class="container theme-showcase" role="main">
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading">Sign the Guest Book</h2>
-        <div class="form-group">
-          <label for="inputName" class="sr-only">Name</label>
-          <input type="text" id="inputName" class="form-control" placeholder="Name" required autofocus>
-        </div>
-        <div class="form-group">
-          <label for="comment" class="sr-only">Comment:</label>
-            <textarea class="form-control" rows="5" id="comment" placeholder="Comment" required></textarea>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign</button>
-      </form>
+      <div class="jumbotron">
+        <h1>Guest Book</h1>
+        <a type="button" class="btn btn-link" href="sign.html">Sign the Guest Book</a>
+      </div>
+
+      <div class="page-header">
+        <h1>Name</h1>
+      </div>
+      <div class="well">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+      </div>
 
     </div> <!-- /container -->
 
