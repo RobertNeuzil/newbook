@@ -7,7 +7,7 @@ class Comment(models.Model):
 	date_added = models.DateTimeField(default=timezone.now)
 
 	def __str__(self):
-		return f" {self.name} "
+		return f" {self.name} and ID: {self.id} "
 
 
 # Create your models here.
